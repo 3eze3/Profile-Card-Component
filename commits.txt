@@ -1,0 +1,9 @@
+2a83d07 Add styles.css file
+f06d6e2 Add reset.css file
+343614d Add layout indext.html file of project
+6cd6746 Add style.css file
+fa173f1 Add index.html file
+717b2d0 Add reset.css file
+c53872e Add files that do not affect the project.
+07bc5da Add images for the project
+7f2eb88 Description of the project
