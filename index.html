@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet" />
     <!--  -->
-    <link rel="stylesheet" href="styleCss/style.css" />
     <link rel="stylesheet" href="resetCss/reset.css" />
+    <link rel="stylesheet" href="styleCss/style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -21,12 +21,40 @@
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos
-    <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Ezequiel</a>.
-    </footer>
+    <main class="profile">
+      <article class="profile__card">
+        <picture class="profile__photo">
+          <img src="images/bg-pattern-card.svg" alt="Background Images" />
+        </picture>
+        <div class="profile__content">
+          <div class="profile__wrappercontent">
+            <div class="profile__containerphotouser">
+              <img
+                src="images/image-victor.jpg"
+                alt="Photo User Victor"
+                class="profile__photouser" />
+            </div>
+            <div class="profile__userinformation">
+              <p class="profile__nameuser">
+                Victor Crest
+                <span class="profile__nameuser profile__nameuser--age">26</span>
+              </p>
+              <span class="profile__cityuser">London</span>
+            </div>
+          </div>
+        </div>
+        <ul class="profile__stats stast">
+          <li class="stast__range">
+            80K <span class="stast__rangename">Followers</span>
+          </li>
+          <li class="stast__range">
+            803K <span class="stast__rangename">Likes</span>
+          </li>
+          <li class="stast__range">
+            1.4K <span class="stast__rangename">Photos</span>
+          </li>
+        </ul>
+      </article>
+    </main>
   </body>
 </html>
